@@ -21,5 +21,6 @@ class GreetingController {
     fun goodBy(@RequestParam(value = "name", defaultValue = "World") name: String): String {
         return greetingService.goodBy(name)
 
+
     }
 }
